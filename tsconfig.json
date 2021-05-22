@@ -1,0 +1,4 @@
+{
+    "noEmitonError" : "true", // to prevent typescript from generating the javascript file if an error was found 
+    "include": ["variable/*"]
+}
