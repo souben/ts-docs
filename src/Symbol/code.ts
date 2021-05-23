@@ -52,6 +52,6 @@ if (s3 === s2) {
     console.log("S3 and S2 are the same symbol"); // Won't print
 }
 
-if (s3 === s4) {
+//if (s3 === s4) {
     // Does not compile
-}
+//}

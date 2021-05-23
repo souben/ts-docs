@@ -29,6 +29,7 @@ a unique way to define a specific member of the object and avoid
 a potential collision that a string cannot prevent.
 
 */
+// Unique symbos are declared with const 
 let s10 = Symbol("s1"); // Type is: Symbol
 const s20 = Symbol("s2"); // Type is: Symbol
 const s3 = Symbol("s3"); // Type is: typeof(s3)
@@ -39,7 +40,7 @@ if (s10 === s20) {
 if (s3 === s2) {
     console.log("S3 and S2 are the same symbol"); // Won't print
 }
-// if (s3 === s4) {
-//     // Does not compile
-// }
+//if (s3 === s4) {
+// Does not compile
+//}
 //# sourceMappingURL=code.js.map
