@@ -1,0 +1,11 @@
+There are two things to note when let is compared with var in 
+this example:
+
+Though the output is expected to be the one defined in the scope, 
+it means the value 999 remains in the scope of the condition,
+and the value “111” is available only in the scope of the function.
+
+Second, since they are two separate values, both xs can be of different
+types. At the moment, we are not explicitly mentioning the type. However,
+TypeScript will determine that the former x is a string while the latter 
+is a number
