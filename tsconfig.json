@@ -1,4 +1,12 @@
 {
     "noEmitonError" : "true", // to prevent typescript from generating the javascript file if an error was found 
-    "include": ["variable/*"]
+    "compilerOptions": {
+        "sourceMap": true,
+        "module": "ES6",
+        "target": "ES6",
+        "baseUrl": "./src/"
+    },
+    "include": [
+        "./src/**/*"
+    ]
 }

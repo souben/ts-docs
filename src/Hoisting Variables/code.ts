@@ -4,6 +4,6 @@ Definition:
     One of the benefits of hoisting is that it enables us to call functions before they appear in the code.
     */
 
-x = "not declared before assignement";
-var x = "decalred after assignement and all fine";
+z = "not declared before assignement";
+var z = "decalred after assignement and all fine";
 console.log(x)

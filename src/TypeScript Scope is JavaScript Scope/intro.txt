@@ -1,0 +1,1 @@
+This lesson discusses the principle of shadowing, capturing, and declaring a variable in JavaScript and naturally porting to TypeScript.
